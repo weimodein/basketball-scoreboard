@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url(assets/fonts/CursedTimerUlil-Aznm.ttf) format("truetype");
+}
+
+body {
+  background-image: url("assets/images/basketball-background.png");
+  background-size: cover;
+}
+
+.score-text {
+  font-family: "CursedTimer", sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  color: #f94f6d;
+  background-color: #080001;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 160px;
+  /* width: 100%;
+  max-width: 600px; */
+  background-color: #1b244a;
+  height: 300px;
+  width: 500px;
+  padding: 100px;
+  border: 6px solid black;
+  border-radius: 12px;
+}
+
+.score-btn {
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  background-color: inherit;
+  padding: 12px;
+}
